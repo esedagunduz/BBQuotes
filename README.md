@@ -3,8 +3,11 @@ Uygulama, kullanıcının iki şov arasında geçiş yapmasına olanak tanır ve
 API'den veri çekmek için asenkron işlevler kullanır.
 
 **fetchQuote** kullanılarak  seçilen şov için rastgele bir alıntı getirir. URLSession kullanarak API çağrısı yapar.
+
 **fetchCharacter** kullanılarak  belirtilen karakterin detaylarını getirir. URLSession kullanarak API çağrısı yapar.
+
 **Task** buttona basıldığında başlar ve belirli bir şov için veri çekme işlemini asenkron olarak gerçekleştirir.
+
 **AsyncImage** kullanılarak asenkron olarak bi URL'den görüntü çekmemiz ve göstermemiz sağlanır.
 
 <img width="370" alt="Ekran Resmi 2024-05-21 22 37 39" src="https://github.com/esedagunduz/BBQuotes/assets/120177771/f9b88e4b-41cf-4694-a51f-0311e97066be">
